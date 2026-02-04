@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Creator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eater&family=Montserrat:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Monster Creator</h1>
+    </header>
+    <main>
+        
+        <form action="https://theresahanson.com/monster-creator" method="post" enctype="multipart/form-data">
+
+            <label for="name">Monster Name</label>
+            <input type="text" id="name" name="monster-name">
+            <label for="email">Monster's Email</label>
+            <input type="text" id="email" name="monster-email" value="@monsteremail.com">
+            <label for="birthday">Monster's Birthday</label>
+            <input type="date" id="birthday" name="monster-birthday">
+
+        <fieldset>
+            <legend>Scary?</legend>
+            <label for="scary-yes">YES!</label>
+            <input type="radio" id="scary-yes" name="monster-scary" value="Yes!"> 
+            <label for="scary-no">No</label>
+            <input type="radio" id="scary-no" name="monster-scary" value="No">
+        </fieldset>
+
+            <label for="color">Color of Monster</label>
+            <input type="color" id="color" name="monster-color">
+            <label for="tentacles">Number of Tentacles</label>
+            <input type="number" id="tentacles" name="monster-tentacles" value="0" min="0" max="1000000">
+            <label for="picture">Picture of Monster</label>
+            <input type="file" id="picture" name="monster-picture" accept="images/*">
+            <label for="eyes">Number of Eyeballs</label>
+            <input type="number" id="eyes" name="monster-eyes" min="0" max="22">
+            <label for="creator">Monster's Creator</label>
+            <input type="text" id="creator" name="monster-creator" value="Ryan Duerkop">
+
+            <div class="actions">
+            <input type="reset">
+            <input type="submit">
+            </div>
+        </form>
+    </main>
+</body>
+</html>

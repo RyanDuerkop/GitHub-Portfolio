@@ -1,0 +1,76 @@
+body{
+    margin:0;
+    background-color: #18810f;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('Frankenstein.jpg.svg');
+    background-size: 20%;
+}
+header{
+    background-color: #000;
+    color: yellowgreen;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Eater', cursive;
+}
+form>label{
+    display: block;
+    font-size: 1.5rem;
+    margin: 1rem 0 .25rem;
+}
+fieldset{
+    font-size: 1.5rem;
+    margin: 1rem 0 .25rem;
+    border: 3px solid yellowgreen;
+    border-radius: .25rem;
+}
+form{
+    background-color: rgba(0,0,0,.9);
+    padding: 1rem 2rem;
+    width: 50rem;
+    max-width: calc(90% - 4rem);
+    margin: 1rem auto;
+}
+input[type="text"], input[type="email"], input[type="date"], input[type="number"], input[type="color"]{
+    font-size: 1.25rem;
+    width: calc(100% - 1rem);
+    border: 3px solid yellowgreen;
+    padding: .5rem;
+    border-radius: .25rem;
+}
+input[type="color"]{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+}
+input[type="text"]:focus, input[type="email"]:focus, input[type="date"]:focus, input[type="number"]:focus, input[type="color"]:focus {
+    background-color: black;
+    color: white;
+    outline: none;
+}
+input[type="reset"], input[type="submit"] {
+    font-family: 'Eater', cursive;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 3px solid yellowgreen;
+    margin: 1rem 2rem 0 0;
+}input[type="submit"] {
+    background-color: yellowgreen;
+}
+
+input[type="reset"] {
+    background-color: black;
+    color: yellowgreen;
+}
+input[type="submit"]:hover {
+    background-color: black;
+    color: yellowgreen;
+}
+input[type="reset"]:hover {
+    color: black;
+    background-color: red;
+    border-color: red;
+}
