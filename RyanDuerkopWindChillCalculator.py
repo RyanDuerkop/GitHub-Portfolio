@@ -1,5 +1,5 @@
 
-#This program allows a user to estimate the perceived temperature based off of the actual air temperature and wind speed.
+#This program allows a user to estemate the perceived temperature based off of the actual air temperature and wind speed.
 #The program is able to convert the wind chill into F and mph.
 # while doing that it uses the noaa formula to validate those numbers.
 # once completed it is converted into F and C. 
@@ -98,5 +98,4 @@ print(f"Wind Chill:      {W_f:.2f} F  |  {W_c:.2f} C")
 print("-" * 44)
 print(frostbite_line)
 print(message)
-
 print("=" * 44)
